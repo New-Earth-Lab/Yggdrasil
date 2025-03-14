@@ -9,7 +9,7 @@ version = v"2.104.30065"
 sources = [ 
     FileSource("https://andor.oxinst.com/downloads/uploads/AndorDriverPack2Setup-$(version.major).$(version.minor).$(version.patch).0.exe",
         "34f5f0db54852d052dfa9b7dbadb4b2bb355806513b9a0babf5908b9fc4c6b01"),
-    # DirectorySource("./bundled"),
+    DirectorySource("./bundled"),
 ]
 
 # Bash recipe for building across all platforms
