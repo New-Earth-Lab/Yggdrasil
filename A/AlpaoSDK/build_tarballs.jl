@@ -44,9 +44,9 @@ echo "PROPRIETARY" > LICENSE
 # These are the platforms we will build for by default, unless further
 # platforms are passed in on the command line
 platforms = [
-    Platform("i686", "linux", cxxstring_abi="cxx03"),
-    Platform("x86_64", "linux", cxxstring_abi="cxx03"),
-    Platform("aarch64", "linux", cxxstring_abi="cxx11"),
+    Platform("i686", "linux"),
+    Platform("x86_64", "linux"),
+    Platform("aarch64", "linux"),
     Platform("i686", "windows"),
     Platform("x86_64", "windows")
 ]
